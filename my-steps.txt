@@ -127,7 +127,45 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 Mo@Maries-MacBook-Air unit-1-git-practice % 
 
 ### Step 6
+Mo@Maries-MacBook-Air unit-1-git-practice % touch menu.txt
+Mo@Maries-MacBook-Air unit-1-git-practice % ls
+menu.txt	plants		sweets
+my-steps.txt	proteins	veggies
+Mo@Maries-MacBook-Air unit-1-git-practice % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    meats
+	deleted:    proteins/tofu.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Mo@Maries-MacBook-Air unit-1-git-practice % git add menu.txt
+Mo@Maries-MacBook-Air unit-1-git-practice % git commit -m "starting a menu"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    meats
+	deleted:    proteins/tofu.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Mo@Maries-MacBook-Air unit-1-git-practice % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 775 bytes | 387.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Momason97/git-to-github-.git
+   aa8b73b..b9b1d9a  main -> main
 
 ### Step 7
 *** DO NOT RECORD STEP 7 **
