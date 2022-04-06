@@ -98,10 +98,33 @@ Mo@Maries-MacBook-Air unit-1-git-practice % mkdir drinks
 Mo@Maries-MacBook-Air unit-1-git-practice % rm -r drinks
 
 ### Step 4
+Last login: Tue Apr  5 18:20:56 on ttys000
+Mo@Maries-MacBook-Air ~ % cd Desktop/unit-1-git-practice
+Mo@Maries-MacBook-Air unit-1-git-practice % git init
+Reinitialized existing Git repository in /Users/Mo/Desktop/unit-1-git-practice/.git/
+Mo@Maries-MacBook-Air unit-1-git-practice % git add .
+Mo@Maries-MacBook-Air unit-1-git-practice % git status
+On branch master
+nothing to commit, working tree clean
+Mo@Maries-MacBook-Air unit-1-git-practice % git commit -m "first git to github"
+On branch master
+nothing to commit, working tree clean
 
 
 ### Step 5
-
+Mo@Maries-MacBook-Air unit-1-git-practice % git remote add origin https://github.com/Momason97/git-to-github-.git
+git branch -M main
+git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 1.32 KiB | 678.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Momason97/git-to-github-.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Mo@Maries-MacBook-Air unit-1-git-practice % 
 
 ### Step 6
 
